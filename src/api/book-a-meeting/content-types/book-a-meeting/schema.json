@@ -41,6 +41,9 @@
         "EST",
         "PST"
       ]
+    },
+    "date": {
+      "type": "date"
     }
   }
 }

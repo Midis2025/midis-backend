@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "book_a_meetings",
+  "info": {
+    "singularName": "book-a-meeting",
+    "pluralName": "book-a-meetings",
+    "displayName": "book-a-meeting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "serviceProposal": {
+      "type": "enumeration",
+      "enum": [
+        "Web Development",
+        "Graphic Design",
+        "Content Creation",
+        "Video Editing",
+        "YouTube Channel Setup & Management",
+        "SEO (Search Engine Optimisation)",
+        "Email Marketing",
+        "Google Ads (PPC)",
+        "Meta Ads (Facebook & Instagram)"
+      ]
+    },
+    "timezone": {
+      "type": "enumeration",
+      "enum": [
+        "IST",
+        "EST",
+        "PST"
+      ]
+    }
+  }
+}

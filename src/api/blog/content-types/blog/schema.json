@@ -11,20 +11,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "Title": {
       "type": "string"
     },
-    "slug": {
+    "Slug": {
       "type": "uid",
-      "targetField": "title"
+      "targetField": "Title"
     },
-    "excerpt": {
-      "type": "string"
-    },
-    "content": {
+    "Excerpt": {
       "type": "richtext"
     },
-    "image": {
+    "Content": {
+      "type": "richtext"
+    },
+    "Image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [

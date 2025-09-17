@@ -21,9 +21,6 @@
     "Excerpt": {
       "type": "richtext"
     },
-    "Content": {
-      "type": "richtext"
-    },
     "Image": {
       "type": "media",
       "multiple": false,
@@ -33,6 +30,13 @@
         "videos",
         "audios"
       ]
+    },
+    "Content": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
     }
   }
 }
